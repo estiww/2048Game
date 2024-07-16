@@ -1,0 +1,71 @@
+@import url(
+"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* עיצוב הכרטיסיות */
+.game-card {
+    width: 300px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(210, 224, 217);
+    text-align: center;
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.game-card h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.game-card button {
+    background-color:#045D5D ;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 20px rgb(2, 59, 66);
+}
+
+
+.game-card button:hover {
+    background-color: #ffffff;
+    color: #333;
+}
+

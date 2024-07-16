@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>high-scores</title>
+	<link rel="stylesheet" href="../CSS/high-scores.css">
+	<link rel="stylesheet" href="../CSS/nav.css">
+</head>
+
+<body>
+	<div class="nav">
+		<p id="player"></p>
+		<a href="../HTML/log-sign-in.html" target="_parent">login</a>
+		<a href="../HTML/high-scores.html" target="_self">high score</a>
+		<a href="../HTML/instructions.html" target="_parent">instructions</a>
+		<a href="../HTML/home.html" target="_parent">home</a>
+	</div>
+	<h1>Best results</h1>
+	<p>the number of players : <span id="num-players"></span></p>
+	<table>
+		<thead>
+			<tr>
+				<th>Username </th>
+				<th>Best result</th>
+			</tr>
+		</thead>
+		<tbody id="table-body">
+		</tbody>
+	</table>
+	<script src="../JS/high-scores.js"></script>
+</body>
+
+</html>
